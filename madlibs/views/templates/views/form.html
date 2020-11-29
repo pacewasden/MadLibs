@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action= " " method="post">
+        {% csrf_token %} 
+        <input type="text" id="noun" name="noun" placeholder="Noun">
+        <br>
+        <input type="text" id="adjective" name="adjective"  placeholder="Adjective">
+        <br>
+        <input type="text" id="place" name="place"  placeholder="Place">
+        <br>
+        <input type="text" id="expression" name="expression"  placeholder="Expression">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
